@@ -1,0 +1,149 @@
+body {
+    background-color: #272A2B;
+}
+
+.main {
+    display: flex;
+}
+
+.container-left {
+    display: block;
+    width: 50%;
+}
+.box-main-container {
+    display: flex;
+    float: right;
+    position: relative;
+    top: 206px;
+    left: -70px;
+    transform: scale(1.4);
+}
+
+.first-column {
+    margin-right: 10px;
+}
+
+.first-column .violetOne {
+    height: 100px;
+    width: 100px;
+    background-color: #FFB7FF;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.first-column .blueOne {
+    height: 200px;
+    width: 100px;
+    background-color: #3BF4FB;
+    border-radius: 12px;
+}
+
+.second-column .blueTwo {
+    height: 200px;
+    width: 100px;
+    background-color: #3BF4FB;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.second-column .violetTwo {
+    height: 100px;
+    width: 100px;
+    background-color: #FFB7FF;
+    border-radius: 12px;
+}
+
+/*  this is for right part */
+
+.container-right {
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    position: relative;
+    top: 100px;
+    height: 250px;
+    width: 450px;
+    border: 2px solid #D88282;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.login-box .title {
+    margin: 25px;
+    margin-left: 35px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+
+.username {
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 350px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+
+.username:focus{
+    outline: none;
+}
+
+.username::-webkit-input-placeholder {
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    bottom: 20px;
+}
+
+.subtitle {
+    margin-top: 5px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.button {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 300;
+    background-color: #D88282;
+    display: inline-block;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.text-under {
+    color: white;
+    position: relative;
+    top: 100px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+
+.text-under a {
+    text-decoration: none;
+}
+
